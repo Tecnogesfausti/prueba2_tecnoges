@@ -2,8 +2,11 @@
 #include "esp_log.h"
 
 void app_main() {
-    // primero...
+    // mejor ponemos cosas ue se entiendad
     int readBytes = 10;
+    ESP_LOGD("INFO", "readBytes=%d", readBytes);
+    //Otro gran cambio
+    readBytes++;
     ESP_LOGD("INFO", "readBytes=%d", readBytes);
 
 }
